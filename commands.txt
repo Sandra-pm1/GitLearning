@@ -4,3 +4,8 @@ git init                                      [to initialize in cwd(current work
 git status                                    [list all untracked files]
 git add -A                                    [add all untracked files to staging area]
 git commit -m "commit msg"                    [to commit with descriptive commit msg]
+git remote add remote_name path               [adding path]
+  eg:git remote add orgin https://github.com/Sandra-pm1/GitLearning.git
+git push remote_name branch 
+  eg:git push orgin master
+git branch                                    [list branches]
